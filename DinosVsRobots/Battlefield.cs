@@ -8,5 +8,13 @@ namespace DinosVsRobots
 {
     class Battlefield
     {
+        //variables
+        public List<Dinosaur> dinoList;
+        public List<Robot> robotList;
+
+        //Constructor
+
+        //Member variables
+
     }
 }
