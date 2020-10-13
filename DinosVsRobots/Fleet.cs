@@ -15,13 +15,10 @@ namespace DinosVsRobots
         public Fleet()
         {
             robotList = new List<Robot>();
-            Weapon weapon1 = new Weapon("Machine gun", 50);
-            Weapon weapon2 = new Weapon("love gun", 0);
-            Weapon weapon3 = new Weapon("lazer gun", 100);
 
-            Robot bot1 = new Robot("Eve", weapon1);
-            Robot bot2 = new Robot("Wall-E", weapon2);
-            Robot bot3 = new Robot("Baymax", weapon3);
+            Robot bot1 = new Robot("Eve", "Plasma Cannon");
+            Robot bot2 = new Robot("Wall-E", "Fire Extinguisher");
+            Robot bot3 = new Robot("Baymax","Rocket Punch");
 
             robotList.Add(bot1);
             robotList.Add(bot2);

@@ -13,10 +13,12 @@ namespace DinosVsRobots
         public int attackPower;
 
         //Constructor
-        public Weapon(string type, int attackPower)
+        public Weapon(string type)
         {
             this.type = type;
-            this.attackPower = attackPower;
+
+            Random rnd = new Random();
+            attackPower = rnd.Next(1, 51);
         }
 
         //Member methods
